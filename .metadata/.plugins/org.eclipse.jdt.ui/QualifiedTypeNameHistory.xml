@@ -25,8 +25,8 @@
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Query"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Modifying"/>
     <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
     <fullyQualifiedTypeName name="com.practice.assignment.Services.StudentService"/>
-    <fullyQualifiedTypeName name="com.practice.assignment.Repositories.StudentRepository"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.practice.assignment.Repositories.StudentRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
 </qualifiedTypeNameHistroy>

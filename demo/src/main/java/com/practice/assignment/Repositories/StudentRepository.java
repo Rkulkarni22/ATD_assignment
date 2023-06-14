@@ -15,6 +15,9 @@ public interface StudentRepository extends JpaRepository<StudentEntity, Long>{
 	@Query("SELECT e  from StudentEntity e where e.first_name=?1" )
 	public List<StudentEntity> showByName(String name);
 	
+	@Query("SELECT e  from StudentEntity e where e.first_name=?1" )
+	public StudentEntity getByName(String name);
+	
 	
 	@Transactional
 	@Modifying

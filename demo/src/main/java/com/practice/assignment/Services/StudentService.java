@@ -34,6 +34,26 @@ public class StudentService {
 		
 	}
 	
+	public StudentDTO updateStudent(StudentDTO student)
+	{
+		String studentName=student.getFirst_name();
+		StudentEntity studentEntity=this.studentRepository.getByName(studentName);
+		
+        ModelMapper mapper=new ModelMapper();
+       		
+		StudentEntity Entity=mapper.map(student,StudentEntity.class);
+		StudentEntity returnedStudentEntity=this.studentRepository.save(Entity);
+		StudentDTO returnedStudentDTO=mapper.map(returnedStudentEntity, StudentDTO.class);
+
+        
+        
+        return returnedStudentDTO;	
+        
+		
+		
+		
+		
+	}
 	
 	
 	
