@@ -1,0 +1,28 @@
+package com.practice.assignment.Entities;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="student")
+public class StudentEntity {
+
+	@Id
+	@Column(nullable = false)
+    private Long id;
+	
+	@Column(nullable = false)
+	private String first_Name;
+	
+	@Column(nullable = false)
+	private String Last_Name;
+	
+	@Column(nullable = false)
+	private Long age;
+	
+	@Column(nullable = false)
+	private Long phone_Number;
+}

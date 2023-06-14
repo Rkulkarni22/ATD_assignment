@@ -1,0 +1,5 @@
+package com.practice.assignment.Repositories;
+
+public interface StudentRepository {
+
+}

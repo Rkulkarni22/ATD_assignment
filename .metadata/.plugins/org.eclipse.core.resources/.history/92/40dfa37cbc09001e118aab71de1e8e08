@@ -1,0 +1,18 @@
+package com.practice.assignment.DTO;
+
+
+public class StudentDTO {
+	
+	private Long id;
+	
+	private String first_Name;
+	
+	private String Last_Name;
+	
+	private Long age;
+	
+	private Long phone_Number;
+	
+	
+
+}

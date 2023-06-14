@@ -1,0 +1,91 @@
+package com.practice.assignment.DTO;
+
+
+public class StudentDTO {
+	
+	private Long id;
+	
+	private String first_Name;
+	
+	private String Last_Name;
+	
+	private Long age;
+	
+	private Long phone_Number;
+	
+	
+	public StudentDTO() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public StudentDTO(Long id, String first_Name, String last_Name, Long age, Long phone_Number) {
+		super();
+		this.id = id;
+		this.first_Name = first_Name;
+		this.Last_Name = last_Name;
+		this.age = age;
+		this.phone_Number = phone_Number;
+	}
+
+
+	public Long getId() {
+		return id;
+	}
+
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+
+	public String getFirst_Name() {
+		return first_Name;
+	}
+
+
+	public void setFirst_Name(String first_Name) {
+		this.first_Name = first_Name;
+	}
+
+
+	public String getLast_Name() {
+		return Last_Name;
+	}
+
+
+	public void setLast_Name(String last_Name) {
+		Last_Name = last_Name;
+	}
+
+
+	public Long getAge() {
+		return age;
+	}
+
+
+	public void setAge(Long age) {
+		this.age = age;
+	}
+
+
+	public Long getPhone_Number() {
+		return phone_Number;
+	}
+
+
+	public void setPhone_Number(Long phone_Number) {
+		this.phone_Number = phone_Number;
+	}
+
+
+	@Override
+	public String toString() {
+		return "StudentDTO [id=" + id + ", first_Name=" + first_Name + ", Last_Name=" + Last_Name + ", age=" + age
+				+ ", phone_Number=" + phone_Number + "]";
+	}
+	
+	
+	
+
+}

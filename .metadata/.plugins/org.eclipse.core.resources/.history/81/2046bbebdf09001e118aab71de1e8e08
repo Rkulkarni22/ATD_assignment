@@ -1,0 +1,10 @@
+package com.practice.assignment.Repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.practice.assignment.Entities.StudentEntity;
+
+public interface StudentRepository extends JpaRepository<StudentEntity, Long>{
+
+	
+}
